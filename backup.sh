@@ -26,7 +26,7 @@ sudo pkill screen
 tar zcvf $dest/$archive_file $backup_files
 
 # Clear backups
-/root/clear_backups.sh
+/root/clear_backup.sh
 
 # Start valheimserver Server
 #systemctl start valheimserver

@@ -14,3 +14,5 @@ screen -d -m ./valheim_server.x86_64 -name "Tambougam" -port 2456 \
                         -public 1
 
 export LD_LIBRARY_PATH=$templdpath
+
+

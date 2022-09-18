@@ -2,10 +2,9 @@
 
 # precisa rodar como sudo
 
-cp backup.sh /root/
-cp clear_backup.sh /root/
+cat ./backup.sh > /root/backup.sh
+cat ./clear_backup.sh > /root/clear_backup.sh
 chmod +x /root/backup.sh /root/clear_backup.sh
 
-rm /home/fabio/steamcmd/start_server.sh
-cp /home/fabio/steamcmd/start_server.sh
+cat ./start_server.sh > /home/fabio/steamcmd/start_server.sh
 chmod +x /home/fabio/steamcmd/start_server.sh
